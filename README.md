@@ -1,74 +1,83 @@
 ![kavach](https://github.com/didintern/kavach/assets/8111964/3b212a8a-c81d-4173-9c0b-f10b9e9bec5f)
 
 
-# 🛡 Kavach
-Kavach aims to provide SSI compatible API's for 🇮🇳India's Adhaar stack.
+# Cavach - Privacy First Aadhaar Verification For Businesses
 
-KAVACH is a powerful tool that enables seamless integration with the Indian Aadhaar Identity System. It provides APIs to interact with the Aadhaar system, generate verifiable credentials, and create zero-knowledge proofs, ensuring secure and privacy-preserving identity verification.
+Cavach is a privacy-focused Aadhaar verification solution that aims to enable businesses to achieve privacy-based compliance in the context of Digital India.
 
-![KAVACH Logo](link_to_your_logo.png)
+![Cavach Logo](link_to_logo_image) <!-- Add an image link for the logo -->
 
 ## Table of Contents
-
 - [Introduction](#introduction)
-- [Features](#features)
-- [Getting Started](#getting-started)
-  - [Installation](#installation)
-  - [Usage](#usage)
-- [API Interfaces](#api-interfaces)
-  - [1. Aadhaar Verification](#1-aadhaar-verification)
-  - [2. Verifiable Credentials](#2-verifiable-credentials)
-  - [3. Zero-Knowledge Proofs](#3-zero-knowledge-proofs)
-- [Contributing](#contributing)
-- [License](#license)
-- [Contact](#contact)
+- [Evolving Regulatory Landscape](#evolving-regulatory-landscape)
+- [Problems](#problems)
+- [Business Integration Use Cases](#business-integration-use-cases)
+- [Roadmap](#roadmap)
+- [Founders](#founders)
 
 ## Introduction
 
-KAVACH is designed to provide a robust and secure solution for integrating Aadhaar identity verification into your applications. It allows you to seamlessly verify Aadhaar identities, generate tamper-proof verifiable credentials, and create zero-knowledge proofs for privacy-preserving transactions.
+Cavach offers a Privacy First Aadhaar Verification solution to assist businesses in complying with evolving data protection and privacy laws in India. The platform emphasizes maintaining privacy while facilitating identity verification.
 
-## Features
+## Evolving Regulatory Landscape
 
-- **Aadhaar Verification:** Verify Aadhaar identities securely and efficiently.
-- **Verifiable Credentials:** Generate and manage verifiable credentials for authenticated users.
-- **Zero-Knowledge Proofs:** Create zero-knowledge proofs to prove the validity of information without revealing sensitive data.
+Newly enforced Data Protection & Privacy Law highlights two key takeaways for businesses:
 
-## Getting Started
+- Businesses need to disclose details about the collection, storage, sharing, and processing of citizen data.
+- Storing citizen data is discouraged due to potential fines, up to 250 Cr, in the event of data breaches.
 
-### Installation
+## Problems
 
-Detailed installation instructions can be found in the [Installation Guide](docs/installation.md).
+Current KYC practices encounter several challenges:
 
-### Usage
+- **Unregulated Industries:** Traditional KYC methods overlook unregulated sectors such as Banking, Insurance, and Telecom, hindering identity verification for businesses in India.
+- **High Integration Costs:** Integrating standard KYC solutions comes with high costs, deterring growth for small non-regulated businesses.
+- **Data Privacy Risks:** Ad-Hoc KYC methods in non-regulated areas risk data mishandling, potentially breaching DPDP23 regulations and eroding trust.
+- **DPDP’23 Complexity:** Aligning KYC with the Data Protection Act of 2023 poses challenges in non-regulated sectors.
 
-Learn how to use KAVACH APIs in the [Usage Guide](docs/usage.md).
+## Business Integration Use Cases
 
-## API Interfaces
+Cavach offers solutions for various business scenarios:
 
-### 1. Aadhaar Verification
+- **ATOM X:** Age Verification for liquor distribution.
+- **Hour4U:** Multi-Party Contract Signing and Onboarding.
+- **Axess:** ID-Linked Event Ticketing.
 
-Ensure the authenticity of Aadhaar identities with the Aadhaar Verification API. For detailed API documentation, refer to [Aadhaar Verification API](docs/api/aadhaar-verification.md).
+## Roadmap
 
-### 2. Verifiable Credentials
+### Q3 2023
 
-Generate and manage verifiable credentials using the Verifiable Credentials API. For detailed API documentation, refer to [Verifiable Credentials API](docs/api/verifiable-credentials.md).
+- Research on offline Aadhaar verification.
+- MVP development of Cavach.
+- Age verification Zero-Knowledge Proof (ZK) support.
+- Running pilot programs.
 
-### 3. Zero-Knowledge Proofs
+### Q4 2023
 
-Create zero-knowledge proofs for secure transactions with the Zero-Knowledge Proofs API. For detailed API documentation, refer to [Zero-Knowledge Proofs API](docs/api/zero-knowledge-proofs.md).
+- PAN & GST verification support.
+- Support for ONDC network.
+- Support for India Stack.
 
-## Contributing
+### Q1 2024
 
-We welcome contributions from the community. To learn how to contribute, please read our [Contribution Guidelines](CONTRIBUTING.md).
+- Adding more data points for Zero-Knowledge Proofs (ZKP).
+- Smart Contract Integration.
+- Plugins for native Android and iOS devices.
+- Cavach Auth Score.
+- Interface Upgrade.
 
-## License
+### Q2 2024
 
-KAVACH is released under the [MIT License](LICENSE).
+- Improved AI models for image processing.
+- Identity Wallet for Users to manage proofs and credentials.
+- User consent APIs.
 
-## Contact
+## Founders
 
-For questions or inquiries, please contact us at contact@kavachapi.com or visit our website at [https://www.kavachapi.com](https://www.kavachapi.com).
+Cavach was founded in 2019 by experienced Data Security & Blockchain Professionals.
 
----
-© 2023 KAVACH. All rights reserved.
+- **Satheesh Kumar:** With over 20 years of global IT & Consulting experience in eGov, Smart Cities, National ID, Space Tech, and Digital KYC domains.
+- **DID Intern:** A seasoned Product Engineer with 7+ years of experience working on product development and execution for enterprise clients.
+
+For more information, please contact Satheesh Kumar at [contact@example.com](mailto:contact@example.com).
 
